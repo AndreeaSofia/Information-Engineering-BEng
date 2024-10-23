@@ -1,6 +1,7 @@
 # Compute the control digit of an integer by summing up its digits, then summing up the digits of the sum,
 # so on, until a sum of only one digit is obtained. (e.g.: The control digit of integer number 1971 is 9).
 
+
 def control_digit(n):
     while n >= 10: # Continue while the number has more than one digit
         sum_digits = 0 # Reset the sum of digits for this iteration
