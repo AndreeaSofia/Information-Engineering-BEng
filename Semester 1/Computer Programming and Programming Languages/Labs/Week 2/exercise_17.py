@@ -1,6 +1,7 @@
 # A number n is special if there is a natural number m such that n=m+S(m), where S(m) is the sum of digits of m.
 # Verify if a given number is special. (e.g.: 1235 is special because 1235=1225+10).
 
+
 def sum_of_digits(n):
     total = 0  # This will store the sum of the digits of n
     while n > 0:
