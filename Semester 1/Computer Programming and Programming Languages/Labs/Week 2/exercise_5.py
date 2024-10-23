@@ -1,6 +1,7 @@
 # Determine the value of the element at the index k in the array 1, 2, 2, 3, 3, 3, 4, 4, 4, 4, ... without
 # reading or effectively creating the array. (e.g.: k = 35, output is 8).
 
+
 def value_at_index(k):
     n = 1  # Start with the number 1
     total_positions = 0  # Track how many positions we've filled
