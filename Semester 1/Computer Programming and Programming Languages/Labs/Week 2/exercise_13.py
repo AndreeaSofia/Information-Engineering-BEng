@@ -1,6 +1,7 @@
 # Read a natural number n. Form another number from its digits found at odd positions (from left to right).
 # (e.g.: for 1234 input, output is 13).
 
+
 def number_from_odd_positions(n):
     digits = str(n)  # Convert the number to a string to process from left to right
     result = ""  # This will store the digits from/at odd positions
